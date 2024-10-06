@@ -1,0 +1,50 @@
+
+
+
+
+cac ky tuw viet tat taoj bang 3 cot 1 cot laf ky tu , 1 cot tieng anh , 1 cot tieng viet
+
+Với điều kiện thời gian cũng như kinh nghiệm còn hạn chế của sinh viên, nghiên cứu này không 
+thể tránh được những thiếu sót. Em rất mong nhận được sự chỉ bảo, đóng góp ý kiến của các 
+thầy, các cô để em có điều kiện bổ sung, nâng cao và phục vụ tốt hơn trong công việc sau này.
+Em xin chân thành cảm ơn. bo or trang 2
+
+và máy tính bảng, Android đã xuất hiện trên TV -> bo sung tv vao ky tu viet tat o trang 3
+
+ở heding 3 , để chữ nghiêng và in đậm
+
+
+3.1 , 3.111 chư viết hoa chữ đầu
+
+dex2jar là công cụ được sử dụng để chuyển đổi file DEX trong APK thành file JAR. 
+DEX (Dalvik Executable) là định dạng file chứa mã bytecode của Android, và việc 
+chuyển đổi sang JAR cho phép chúng ta phân tích mã nguồn Java của ứng dụn  thiếu chữ G
+
+Bước 3: Khác phục lỗ hổng, Pentest lần 2 ->   khắc phục
+
+Kết quả đặt được -> đặt được
+
+
+Hạn chế: trong các lỗ hổng của MASVS em mới Pentest và nghiên cứu chỉ môt số lỗ hổng tiêu 
+biểu, tuy nhiên còn rất nhiều lỗ hổng em chưa nghiên cứu và Pentest -> một số
+
+chúng ta -> Em  trang 43
+
+Công cụ đã phát hiện rằng bạn đang sử dụng phương thức rawQuery() để thực hiện truy vấn 
+SQL. Mặc dù dòng 55 có sử dụng tham số (?) để tránh SQL Injection, dòng 68 lại sử dụng 
+biến chuỗi (str) mà không có sự bảo vệ rõ ràng, điều này có thể dẫn đến SQL Injection nếu 
+biến chuỗi str được tạo từ đầu vào người dùng mà không được xác thực hoặc làm sạch đúng 
+cách  -> bạn -> sửa lạiu nhân xưng
+
+Để khắc phục các vấn đề này, chúng tôi đề xuất một số biện pháp quan trọng mà các nhà phát 
+triển ứng dụng cần thực hiện: -> chúng tôi -> Em
+
+Định hướng tương lai: Chúng tôi dự định sẽ tiếp tục nghiên cứu và Pentest thêm nhiều lỗ hổng 
+bảo mật khác để mở rộng phạm vi phân tích. Đồng thời, chúng tôi cũng sẽ hoàn thiện công cụ 
+Pentest để nâng cao hiệu quả và độ chính xác trong việc phát hiện các lỗ hổng bảo mật.
+Kết quả nghiên cứu này hy vọng sẽ góp phần vào việc nâng cao chất lượng bảo mật của các 
+ứng dụng Android và khuyến khích các nhà phát triển chú trọng hơn đến việc bảo vệ dữ liệu 
+người dùng. Bảo mật ứng dụng không chỉ là trách nhiệm của các nhà phát triển mà còn là yếu 
+tố quan trọng để xây dựng niềm tin và sự hài lòng từ phía người dùng. -> cá nhân Em
+
+

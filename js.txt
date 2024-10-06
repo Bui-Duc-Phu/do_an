@@ -1,0 +1,36 @@
+hoisting  : là cơ chế mặc định của javascript để di chuyển tât cả các biến và hàm lên trên đầu scope trước khi chúng được thực thi
+
+vong lặp có sử dung var và let có gì khác nhau
+
+
+Closure là một tính năng trong JavaScript cho phép một hàm "nhớ" được môi trường nơi nó được tạo ra, ngay cả khi hàm đó đã được thực thi bên ngoài phạm vi của môi trường đó. Closure cho phép truy cập các biến cục bộ của hàm cha ngay cả khi hàm cha đã hoàn thành việc thực thi.
+
+const up = () => {
+    let cnt = 0;
+
+    return () => {
+        console.log(cnt);
+        cnt++
+    }
+}
+let a = up();
+
+a();
+a();
+a();
+a();
+
+
+tham chiếu trong js
+
+let x = {
+    name: "bui duc phu"
+};
+
+let y;
+
+y = x;
+
+console.log(y);
+x.name = "phu phu phu";
+console.log(y);

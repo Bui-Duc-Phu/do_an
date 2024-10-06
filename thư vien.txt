@@ -1,0 +1,34 @@
+npm uninstall -g react-native-cli
+npm cache clean --force
+npx react-native init appCoffee --template react-native-template-typescript	 
+
+
+npm install @react-navigation/native  react-native-screens react-native-safe-area-context @react-navigation/native-stack
+
+
+https://github.com/henninghall/react-native-date-picker
+
+firebase {
+npm i @react-native-firebase/app
+npm i @react-native-firebase/auth @react-native-firebase/storage @react-native-firebase/firestore
+}
+
+đặc điểm của select mutible list  coppy ra rồi check nếu bên trong có nó rồi thì bỏ nó đi (gõ ctick ra ) , còn nếu chưa có thì add nó vào 
+dưới chỗ item cài đặt điều kiện nếu key có trong selected thì show tick
+
+npm i cors (câu hình cho server dùng để config cho quyền)
+
+npm install axios  (cấu hình chô client)
+
+npm i bcrypt (mã hoá password)
+
+npm i express-async-handler
+
+npm i jsonwebtoken
+
+npm install @reduxjs/toolkit react-redux redux
+
+npm i @react-native-async-storage/async-storage (local storage)
+
+add dispatch type object
+
