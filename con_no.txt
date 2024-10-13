@@ -1,7 +1,7 @@
   
-duy  82
-chien  
-toan  
+duy  82+8+23
+chien  +8+23
+toan  30+8+28+23
 hieu  28+35
 
 s
