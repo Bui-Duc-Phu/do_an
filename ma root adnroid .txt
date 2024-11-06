@@ -1,0 +1,29 @@
+adb emu kill
+
+emulator -avd Pixel_6_API_25 -writable-system -netdelay none -netspeed full
+
+emulator -avd Pixel_6_API_28 -writable-system -netdelay none -netspeed full
+
+emulator -list-avds
+
+
+
+
+3. Cài đặt proxy và certificate
+3.1. Cài đặt proxy
+Lấy địa chỉ IP của máy Mac: ipconfig getifaddr en0
+Vào máy ảo android để setting proxy cho mạng wifi
+Cài đặt proxy listener trên Burp
+3.2. Cài đặt certificate
+Vào http://burp/cert để download certification về 
+Đổi tên file từ .der thành .cer
+Cài đặt file .cer vào credentials
+Move certificate sang System bằng các lệnh dưới đây:
+phuongdang@Phuongs-MacBook-Pro ~ % adb -s 192.168.56.103:5555 shell                       
+root@vbox86p:/ # ls /data/misc/user/0/cacerts-added
+9a5ba575.0
+root@vbox86p:/ # mount -o rw,remount /system 
+root@vbox86p:/ # mv /data/misc/user/0/cacerts-added/9a5ba575.0 /system/etc/security/cacerts/
+root@vbox86p:/ # chown root:root /system/etc/security/cacerts/9a5ba575.0
+root@vbox86p:/ # chmod 644 /system/etc/security/cacerts/9a5ba575.0 
+root@vbox86p:/ # reboot
