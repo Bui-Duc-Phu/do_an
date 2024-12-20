@@ -1,8 +1,12 @@
+adb root
+adb remount
+
+
 adb emu kill
 
 emulator -avd Pixel_6_API_25 -writable-system -netdelay none -netspeed full
 
-emulator -avd Pixel_6_API_28 -writable-system -netdelay none -netspeed full
+emulator -avd Pixel_5_API_28 -writable-system -netdelay none -netspeed full
 
 emulator -list-avds
 
@@ -23,6 +27,7 @@ phuongdang@Phuongs-MacBook-Pro ~ % adb -s 192.168.56.103:5555 shell
 root@vbox86p:/ # ls /data/misc/user/0/cacerts-added
 9a5ba575.0
 root@vbox86p:/ # mount -o rw,remount /system 
+vao system roi mount mount -o rw,remount /
 root@vbox86p:/ # mv /data/misc/user/0/cacerts-added/9a5ba575.0 /system/etc/security/cacerts/
 root@vbox86p:/ # chown root:root /system/etc/security/cacerts/9a5ba575.0
 root@vbox86p:/ # chmod 644 /system/etc/security/cacerts/9a5ba575.0 
