@@ -1,8 +1,8 @@
   
 duy  492 + 1tr
 chien 
-toan 110
-hieu 2tr + 331 + 130
+toan 110+17
+hieu 
 
 
 
